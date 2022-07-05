@@ -5,8 +5,9 @@
 header img {
     width: 45%;
     height: 45%;
-    padding: 15px;
+    padding: 1px;
     display: block;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -53,6 +54,12 @@ section{
     justify-content: space-around;
 }
 
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Decoracion footer*/
 
 footer{
