@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+
+
+    .categoriaProducto{
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    section{
+        display:flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px){
+
+    .categoriaProducto{
+        font-size: 2rem;
+        
+    }
+}
