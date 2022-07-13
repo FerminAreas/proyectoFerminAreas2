@@ -1,0 +1,19 @@
+$redes: (
+    Facebook: rgba(5, 5, 154, 0.679),
+    Instagram: rgba(172, 0, 175, 0.853),
+    tiktok: rgb(91, 0, 0),
+
+);
+
+.botonFacebook{
+    color: map-get($map: $redes, $key: Facebook);
+}
+
+.botonInstagram{
+    color: map-get($map: $redes, $key: Instagram);
+}
+
+.botonTiktok{
+    color: map-get($map: $redes, $key: tiktok);
+}
+

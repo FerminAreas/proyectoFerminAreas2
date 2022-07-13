@@ -1,0 +1,12 @@
+@mixin fontsize ($size, $weigth) {
+    font-size: $size;
+    font-weight: $weigth;
+}
+
+.tamañosletra1{
+    @include fontsize(2rem, 200);
+}
+
+.tamañosletra2{
+    @include fontsize(1rem, 50);
+}

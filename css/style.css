@@ -1,44 +1,28 @@
-/*aca irian los colores primarios y secundarios*/
-ul li {
+@charset "UTF-8";
+ul {
   list-style: none;
 }
-
-header h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(20, 120, 0);
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(20, 120, 0);
+ul li {
+  display: flex;
 }
-
-h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(18, 54, 122);
-  margin-top: 20px;
-}
-
-.categoriaProducto {
+ul li a {
   text-decoration: none;
-  color: rgb(20, 119, 0);
-  font-weight: bold;
-  margin-top: 20px;
-  border-style: solid;
-  border-color: rgb(20, 119, 0);
-  border-width: thin;
-}
-
-p {
-  color: rgb(18, 54, 122);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-footer {
-  border-style: solid;
-  border-color: rgb(18, 54, 122);
   text-align: center;
-  color: rgb(18, 54, 122);
-  margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+.botones, .botonVerde {
+  background-color: rgb(18, 54, 122);
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+.botones:hover, .botonVerde:hover {
+  filter: opacity(80%);
+}
+
+.botonVerde {
+  background-color: rgb(20, 120, 0);
+  color: white;
 }
 
 header {
@@ -58,7 +42,45 @@ section a {
 }
 
 .efecto:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+header h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(20, 120, 0);
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(20, 120, 0);
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(18, 54, 122);
+  margin-top: 20px;
+}
+
+.categoriaProducto {
+  text-decoration: none;
+  color: rgb(20, 120, 0);
+  font-weight: bold;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(20, 120, 0);
+  border-width: thin;
+}
+
+p {
+  color: rgb(18, 54, 122);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  border-style: solid;
+  border-color: rgb(18, 54, 122);
+  text-align: center;
+  color: rgb(18, 54, 122);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header img {
@@ -85,6 +107,11 @@ img {
   align-items: center;
 }
 
+.tarjeta {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 768px) {
   .categoriaProducto {
     text-decoration: none;
@@ -101,6 +128,28 @@ img {
     font-size: 2rem;
   }
 }
+.tamañosletra1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.tamañosletra2 {
+  font-size: 1rem;
+  font-weight: 50;
+}
+
+.botonFacebook {
+  color: rgba(5, 5, 154, 0.679);
+}
+
+.botonInstagram {
+  color: rgba(172, 0, 175, 0.853);
+}
+
+.botonTiktok {
+  color: rgb(91, 0, 0);
+}
+
 section {
   display: flex;
   justify-content: space-around;
