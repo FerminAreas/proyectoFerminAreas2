@@ -5,15 +5,15 @@ $redes: (
 
 );
 
-.botonFacebook{
+.infoFacebook{
     color: map-get($map: $redes, $key: Facebook);
 }
 
-.botonInstagram{
+.infoInstagram{
     color: map-get($map: $redes, $key: Instagram);
 }
 
-.botonTiktok{
+.infoTiktok{
     color: map-get($map: $redes, $key: tiktok);
 }
 
