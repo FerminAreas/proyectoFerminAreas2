@@ -155,8 +155,14 @@ section {
   justify-content: space-around;
 }
 
+h3{
+  color:rgb(20, 120, 0);
+  text-align: center;
+}
 
-
+h3 p{
+  text-align: center;
+}
 
 
 /*# sourceMappingURL=style.css.map */
