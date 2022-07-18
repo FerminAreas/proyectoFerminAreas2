@@ -4,9 +4,13 @@
 }
 
 .tamañosletra1{
-    @include fontsize(2rem, 200);
+    @include fontsize(1.5rem, 200);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tamañosletra2{
     @include fontsize(1rem, 50);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
