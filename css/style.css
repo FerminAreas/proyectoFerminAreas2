@@ -26,6 +26,10 @@ ul li a {
   color: white;
 }
 
+.barraNav {
+  flex-direction: column;
+}
+
 header {
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 24%, rgb(175, 214, 255) 98%, rgb(219, 219, 219) 100%);
@@ -44,6 +48,10 @@ section a {
 
 .efecto:hover {
   transform: scale(1.1);
+}
+
+section {
+  text-align: center;
 }
 
 header h1 {
@@ -95,6 +103,10 @@ nav {
   background-color: rgba(44, 167, 22, 0.771);
 }
 
+footer {
+  background-color: rgba(44, 167, 22, 0.771);
+}
+
 header img {
   width: 15%;
   height: 15%;
@@ -136,6 +148,10 @@ img {
     font-size: 2rem;
   }
   .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .redes-sociales {
     flex-direction: column;
     align-items: center;
   }
