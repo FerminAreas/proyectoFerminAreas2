@@ -1,0 +1,49 @@
+.galeria1{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 5px 5px;
+
+    grid-template-areas:
+    "titulo1 titulo2 titulo3"
+    "imagen1 imagen2 imagen3"
+    "info1 info2 info3"
+}
+
+.titulo1{
+    grid-area: titulo1;
+}
+.titulo2{
+    grid-area: titulo2;
+}
+.titulo3{
+    grid-area: titulo3;
+}
+
+.imagen1{
+        grid-area:imagen1;
+        width: 100%;
+        height: 100%;
+    }
+
+.imagen2{
+        grid-area:imagen2;
+        width: 100%;
+        height: 100%;
+}
+
+.imagen3{
+        grid-area:imagen3;
+        width: 100%;
+        height: 100%;
+}
+
+.info1{
+    grid-area: info1;
+}
+.info2{
+    grid-area: info2;
+}
+.info3{
+    grid-area: info3;
+}
