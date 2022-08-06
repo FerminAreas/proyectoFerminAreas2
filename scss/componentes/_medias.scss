@@ -31,8 +31,16 @@
         align-items: center;
     }
 
-    .galeria1{
-        display: block;
+}
+
+
+@media (max-width: 480px){
+    .ubicacion{
+        display: flex;
+        flex-direction: initial;
+        height: 125px;
+        width: 250px;
     }
 
 }
+
